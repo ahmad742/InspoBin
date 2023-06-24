@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>InspoBin</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Inspobin app need access to use media from phone  to save in app.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>InspoBin would like to access your camera. The InspoBin app would like to access your camera to allow you to capture photos and videos of any visuals that inspire you. </string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Inspobin app need access to get location to show location base item to user. </string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>InspoBin would like to access your microphone. The InspoBin app would like to access your microphone to allow you to record and save audio memos, or any sound clips of audio inspiration you hear.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Inspobin app need access to use picture from phone gallery to save in app.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Inspobin app need access to use picture from phone gallery to save in app.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>AntDesign.ttf</string>
+		<string>Entypo.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>Feather.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>FontAwesome5_Brands.ttf</string>
+		<string>FontAwesome5_Regular.ttf</string>
+		<string>FontAwesome5_Solid.ttf</string>
+		<string>Foundation.ttf</string>
+		<string>Ionicons.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>Montserrat-Black_0.otf</string>
+		<string>Montserrat-BlackItalic_0.otf</string>
+		<string>Montserrat-Bold_0.otf</string>
+		<string>Montserrat-BoldItalic_0.otf</string>
+		<string>Montserrat-ExtraBold_0.otf</string>
+		<string>Montserrat-ExtraBoldItalic_0.otf</string>
+		<string>Montserrat-ExtraLight_0.otf</string>
+		<string>Montserrat-ExtraLightItalic_0.otf</string>
+		<string>Montserrat-Italic_0.otf</string>
+		<string>Montserrat-Light_0.otf</string>
+		<string>Montserrat-LightItalic_0.otf</string>
+		<string>Montserrat-Medium_0.otf</string>
+		<string>Montserrat-MediumItalic_0.otf</string>
+		<string>Montserrat-Regular_0.otf</string>
+		<string>Montserrat-SemiBold_0.otf</string>
+		<string>Montserrat-SemiBoldItalic_0.otf</string>
+		<string>Montserrat-Thin_0.otf</string>
+		<string>Montserrat-ThinItalic_0.otf</string>
+		<string>SimpleLineIcons.ttf</string>
+		<string>Octicons.ttf</string>
+		<string>Zocial.ttf</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>
